@@ -1,0 +1,125 @@
+/* -------------------- FOND -------------------- */
+QWidget {
+    background-color: #101822;  /* un bleu-gris plus profond */
+    color: #e6e9ef;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+/* -------------------- TITRES -------------------- */
+QLabel[title="true"] {
+    font-size: 22px;
+    font-weight: bold;
+    color: #66aaff;
+    margin: 12px 0;
+}
+
+/* -------------------- BOUTONS -------------------- */
+QPushButton {
+    border: 1px solid #2a3545;
+    border-radius: 6px;
+    padding: 8px 14px;
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #1c2b3c, stop:1 #0e1622
+    );
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #3d6ec9, stop:1 #244b87
+    );
+    border: 1px solid #66aaff;
+    color: #e6f0ff;
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #244b87, stop:1 #3d6ec9
+    );
+    border: 1px solid #88bbff;
+    color: #ffffff;
+}
+
+/* -------------------- INPUTS -------------------- */
+QLineEdit, QTextEdit {
+    background-color: #182533;
+    border: 1px solid #2a3545;
+    border-radius: 4px;
+    padding: 6px;
+    color: #e6e9ef;
+    selection-background-color: #3d6ec9;
+    selection-color: #ffffff;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #66aaff;
+    background-color: #1d2a3a;
+}
+
+/* -------------------- CHECKBOX -------------------- */
+QCheckBox {
+    spacing: 6px;
+    color: #e6e9ef;
+    font-weight: 500;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #2a3545;
+    border-radius: 3px;
+    background-color: #182533;
+}
+
+QCheckBox::indicator:hover {
+    border: 1px solid #66aaff;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #3d6ec9;
+    border: 1px solid #88bbff;
+}
+
+/* -------------------- SCROLLBAR -------------------- */
+QScrollBar:vertical {
+    border: none;
+    background: #0e1622;
+    width: 12px;
+    margin: 0px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background: #2a3545;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3d6ec9;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: none;
+    height: 0;
+}
+
+/* -------------------- STACKED WIDGET -------------------- */
+QStackedWidget {
+    background-color: #101822;
+}
+
+/* -------------------- TITRES LOGIN/REGISTER -------------------- */
+QLabel[class="pageTitle"] {
+    font-size: 47px;        /* bien plus grand */
+    font-weight: bold;
+    color: #ffffff;
+    margin: 30px;
+    letter-spacing: 1px;    /* espacement pour style Steam */
+}
