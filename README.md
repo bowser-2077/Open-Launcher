@@ -46,7 +46,8 @@ pip install Pyside6 requests supabase
 > [!CAUTION]
 > The official supabase ANON key is present on the sourcecode  
 > This is normal. In order to make Open Launcher free and  
-> Easy to use for everyone, you can connect yourself with the rest  
+> Easy to use for everyone, you can connect your own version
+> of Open Launcher with the rest  
 > Of the community!
 
 You can use your own supabase postgress SQL. This is how to setup the DB.  
@@ -82,6 +83,47 @@ And now, you will have to replace the default ANON key by yours on **api.py**
 
 ## Game Uploading Rules
 
+1. **Original Content Only**  
+   - You may only upload games that you own the rights to or have explicit permission to share.  
+   - Do not upload pirated, stolen, or cracked content.  
+
+2. **File Requirements**  
+   - All game files must be virus-free and safe to run.  
+   - Compressed archives (.zip, .rar, .7z) must include all required assets and executables.  
+   - File names should be clear and avoid special characters.  
+
+3. **Game Description**  
+   - Provide an accurate title, version, and description of the game.  
+   - Include installation instructions if necessary.  
+   - Screenshots or a cover image are highly recommended.  
+
+4. **Prohibited Content**  
+   - Adult content is authorised BUT you will have to precise that this is a +18 game on the title.  
+   - No hidden malware, miners, or backdoors.  
+   - No copyrighted assets without permission (music, images, code, etc.).  
+
+5. **Metadata and Tags**  
+   - Use relevant name so players can easily find your game.  
+   - Misleading titles, tags, or descriptions are not allowed.  
+
+6. **Updates and Maintenance**  
+   - Keep your game up to date (Old versions will be removed : contact me on discord for game removal : bowser_2077).  
+   - Old versions should be marked clearly to avoid confusion.  
+
+7. **Community Respect**  
+   - Treat feedback and reviews respectfully.  
+   - Do not spam or re-upload the same game multiple times.  
+
+⚠️ **Violation of these rules may result in removal of your game and potential account suspension.**
+
+
+## DRM/DMCA Infos
+
+This is for games publishers only :  
+If you need to contact me about a pirated game/software that you  
+needo remove, please contact me via gmail : hostinfire@gmail.com or with discord bowser_2077
+
+### Open Launcher is protected with MIT license
 
 
 
