@@ -1,6 +1,9 @@
 # Open Launcher
 
-### Open launcher is a free steam alternative for open source games
+<img width="420" height="420" alt="logo" src="https://github.com/user-attachments/assets/675064f3-7dba-4079-a417-878e4a974f3f" />
+
+### Open launcher
+is a free steam alternative for open source games
 
 ## Features 
 
