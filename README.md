@@ -10,9 +10,9 @@ Features
   - In app account management
 
 > [!WARNING]
-> Game upload is fully supported but
-> upload system may change in the near future.
-> You can upload games by following the rules on the last section.
+> Game upload is fully supported but  
+> upload system may change in the near future.  
+> You can upload games by following the rules on the last section.  
 
 
 
