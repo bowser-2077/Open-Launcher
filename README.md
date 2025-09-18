@@ -1,6 +1,8 @@
 # Open Launcher
 
-<img width="420" height="420" alt="logo" src="https://github.com/user-attachments/assets/675064f3-7dba-4079-a417-878e4a974f3f" />
+<p align="center">
+  <img width="220" height="220" alt="logo" src="https://github.com/user-attachments/assets/675064f3-7dba-4079-a417-878e4a974f3f" />
+</p>
 
 ### Open launcher
 is a free steam alternative for open source games
