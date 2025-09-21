@@ -2,8 +2,8 @@ import bcrypt
 import os
 from supabase import create_client
 
-SUPABASE_URL = "https://nsiosbpzkxrkfsydbdsm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5zaW9zYnB6a3hya2ZzeWRiZHNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc5NDU3OTcsImV4cCI6MjA3MzUyMTc5N30.67K4VHcw_Ou4OtIQoxvDVrGceyD7Fdo3fbHzV9_TRfQ"
+SUPABASE_URL = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+SUPABASE_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 LIBRARY_PATH = "library"
@@ -59,3 +59,4 @@ class ApiService:
     @classmethod
     def add_game(cls, game_data):
         supabase.table("games").insert(game_data).execute()
+
