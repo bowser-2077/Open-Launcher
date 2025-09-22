@@ -13,9 +13,9 @@ class DiscordPresence:
             self.rpc = Presence(self.client_id)
             self.rpc.connect()
             self.connected = True
-            print("[Discord] ✅ Rich Presence connecté")
+            print("[RichPresence] OK")
         except Exception as e:
-            print(f"[Discord] ❌ Erreur de connexion : {e}")
+            print(f"[RichPresence] ERR : {e}")
 
     def update(self, details: str = "Navigation", state: str = "Sur Open Launcher", large_image="icon", small_image=None):
         if not self.connected:
@@ -39,3 +39,4 @@ class DiscordPresence:
                 print("[Discord] 🔌 Rich Presence déconnecté")
             except:
                 pass
+
