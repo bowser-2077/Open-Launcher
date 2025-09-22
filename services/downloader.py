@@ -3,9 +3,9 @@ import requests
 from PySide6.QtCore import QThread, Signal
 
 class DownloadThread(QThread):
-    progress = Signal(int)     # pourcentage de progression
-    finished = Signal(str)     # chemin du fichier téléchargé
-    error = Signal(str)        # message d'erreur
+    progress = Signal(int)     #pgress bar
+    finished = Signal(str)     # game path
+    error = Signal(str)        # err
 
     def __init__(self, url, dest):
         super().__init__()
@@ -32,3 +32,4 @@ class DownloadThread(QThread):
 
         except Exception as e:
             self.error.emit(str(e))
+
