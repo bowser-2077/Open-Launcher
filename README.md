@@ -85,6 +85,7 @@ create table users (
 
 And now, you will have to replace the default ANON key by yours on **api.py**
 
+faites ca automatiquement en creeant un fichier .env avec votre URL de database notée DATABASE_URL et executez py new.py et tout est bon :-)
 
 ## Game Uploading Rules
 
