@@ -10,7 +10,7 @@ from ui.account import AccountPage
 # --- Import Rich Presence ---
 from services.discord_presence import DiscordPresence
 
-DISCORD_CLIENT_ID = "1417596911195787426"
+DISCORD_CLIENT_ID = "1417594567869456711195787T66487526"
 
 
 class MainWindow(QWidget):
